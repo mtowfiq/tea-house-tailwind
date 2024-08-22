@@ -109,14 +109,15 @@
              <div  class="lg:flex justify-between">
                 <!-- Image content -->
                  <div class="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-3 gap-4">
-                    <div class="h-32 w-60 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
+                    <div class="h-32 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
                     <div class="bg-orange-50 row-span-2 rounded-xl">
-                        <img src="images/fresh-1.png" class="mx-auto my-5" alt="">
+                        <img src="images/fresh-1.png" class="mx-auto " alt="">
+<!-- --------------------- How do i vertically center the image and why is the grid  not taking equal space?------------------------------------ -->
                     </div>
                     <div class="bg-stone-100 row-span-2 rounded-xl">
-                        <img src="images/fresh-2.png" class="mx-auto my-5" alt="">
+                        <img src="images/fresh-2.png" class="mx-auto" alt="">
                     </div>
-                    <div class="h-32 w-60 bg-gradient-to-r from-stone-200 to-stone-100 rounded-xl"></div>
+                    <div class="h-32 bg-gradient-to-r from-stone-200 to-stone-100 rounded-xl"></div>
                  </div>
                  <!-- Text content -->
                   <div>
@@ -129,6 +130,55 @@
                   </div>
              </div>
           </section>
+          <!-- Reviews section -->
+           <section class="mb-24">
+                <div class="lg:flex items-center gap-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg text-white px-16">
+                    <!-- text content -->
+                     <div>
+                        <h1 class="mt-40 mb-5 font-extrabold text-5xl">Meet Our Super <br>Clients</h1>
+                        <p class="mb-5 font-medium">There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration in <br>some form, by injected humour, or randomised <br> words which don't look even slightly believable. </p>
+                        <button class="bg-white px-7 py-4 text-orange-500 mb-36 text-xl font-extrabold rounded-lg">Show All</button>
+                     </div>
+                     <!-- Image content -->
+                     <div class="relative">
+                        <!-- Middle Card -->
+                         <div class="absolute top-32 z-10 ">
+                            <div class="relative bg-white rounded-lg h-56 flex items-center justify-center px-5">
+                                <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                                    <img src="images/client.png" class="p-1" alt="">
+                                </div>
+                                <div>
+                                    <p class="text-gray-500">We are providing the best and suitable home <br> insurance services for the people who are  <br> interested to treatment</p>
+                                    <h4 class="font-bold mt-5 text-black">Ilham Yuda</h4>
+                                    <p class="font-medium text-gray-700">Businessman</p>
+                                </div>
+                            </div>
+                         </div>
+                        <!-- Top Card -->
+                        <div class="relative left-32  bg-white rounded-lg h-56 flex items-center justify-center px-5 opacity-40">
+                            <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                                <img src="images/client.png" class="p-1" alt="">
+                            </div>
+                            <div>
+                                <p class="text-gray-500">We are providing the best and suitable home <br> insurance services for the people who are  <br> interested to treatment</p>
+                                <h4 class="font-bold mt-5 text-black">Ilham Yuda</h4>
+                                <p class="font-medium text-gray-700">Businessman</p>
+                            </div>
+                        </div>
+                        <!--Bottom Card -->
+                        <div class="relative left-32  top-10 bg-white rounded-lg h-56 flex items-center justify-center px-5 opacity-40">
+                            <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                                <img src="images/client.png" class="p-1" alt="">
+                            </div>
+                            <div>
+                                <p class="text-gray-500">We are providing the best and suitable home <br> insurance services for the people who are  <br> interested to treatment</p>
+                                <h4 class="font-bold mt-5 text-black">Ilham Yuda</h4>
+                                <p class="font-medium text-gray-700">Businessman</p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+           </section>
      </main>
 </body>
 </html>
